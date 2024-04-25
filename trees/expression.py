@@ -3,7 +3,7 @@ import re
 
 # Function to convert infix expression to postfix expression
 def infix_to_postfix(expression):
-    precedence = {'+': 1, '-': 1, '*': 2, '/': 2, '**': 3}  # Operator precedence dictionary
+    precedence = {'+': 1, '-': 1, '*': 2, '/': 2}  # Operator precedence dictionary
     stack = [] 
     postfix = ''
     operand = '' # Introduced operand string that is updated or reset with every step of iteration
